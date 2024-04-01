@@ -60,7 +60,8 @@ This is the body of the response letter.
 \response{Response to reviewer 2 comment}
 \end{reviewer}
 
-\closing{Sincerely, \authorName}
+\closing{Sincerely,}
+\textbf{Albert Eistein}
 \end{letter}
 
 \end{document}
