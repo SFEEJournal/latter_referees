@@ -1,0 +1,34 @@
+\documentclass{letter}
+\usepackage{letter_sfee} % Import our custom letter style
+
+% Package configuration
+\journalTitle{Smart Factory \& Energy Efficiency} % Set the journal title
+\journalLogo{logo_sfee.png} % Set the journal logo
+\editorName{Juan de Anda Suárez} % Editor's name
+
+\begin{document}
+\letterDate{31}{03}{2024} % Date of the letter
+\begin{letter}{Recipient} % Recipient of the letter
+\opening{} % Opening of the letter, automatically filled with the editor's name
+
+This is the body of the letter.
+
+\begin{reviewer}{} % Reviewer section, automatically filled
+\comment{Reviewer 1 comment}
+\response{Response to reviewer 1 comment}
+
+\comment{Another comment from reviewer 1}
+\response{Response to another comment from reviewer 1}
+\end{reviewer}
+
+\begin{reviewer}{} % Second reviewer section, automatically filled
+\comment{Reviewer 2 comment}
+\response{Response to reviewer 2 comment}
+\end{reviewer}
+
+\closing{Sincerely,} % Closing of the letter with the author's name
+\textbf{Albert Einstein} % Author's name (in bold)
+\end{letter}
+
+\end{document}
+
